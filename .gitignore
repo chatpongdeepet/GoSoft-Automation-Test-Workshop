@@ -1,0 +1,71 @@
+# Bytecode files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+*.env
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE specific files - PyCharm / JetBrains
+.idea/
+*.iml
+
+# Robot Framework logs and outputs
+output.xml
+log.html
+report.html
+*.png  # Screenshots from SeleniumLibrary
+
+# Selenium IDE artifacts
+selenium-ide/
+
+# Temporary and cache files
+*.temp
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+*.egg-info/
+.eggs/
+build/
+dist/
+develop-eggs/
+.eggs/
+.installed.cfg
+*.egg
+*.log
+
+# Testing tools
+.tox/
+.nox/
+.coverage
+coverage.*
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Debug files
+debug.log
+error.log
+
+# OS-specific files
+Thumbs.db
+desktop.ini
+
+# Files related to Python packaging
+*.lock
+pip-log.txt
+
+# Environment files for settings
+.env
+.env.*
+!.env.example
